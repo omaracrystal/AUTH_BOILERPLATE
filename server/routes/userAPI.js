@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var passport = require('passport');
-var passportLocal = require('../auth/local');
+var passportLocal = require('../auth/local.js');
 var User = require('../models/user.js');
 
 
